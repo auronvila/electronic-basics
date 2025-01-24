@@ -3,6 +3,7 @@ int buzzerPin = 8;
 void setup() {
   Serial.begin(9600);
   pinMode(buzzerPin,OUTPUT);
+  pinMode(analogPin,INPUT);
 }
 
 void loop() {
